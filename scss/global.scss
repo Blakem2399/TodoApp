@@ -1,0 +1,44 @@
+$small: 400px;
+$medium: 600px;
+$large: 900px;
+
+$roberto: 'Roboto', sans-serif;
+$backgroundColor:#50D8D7;
+$backgroundColorDark:#42B1B0;
+$purpleBright:#B47AEA;
+$purpleMed:#BD93D8;
+$ceil:#9799CA;
+$lightGreen:#61E294;
+$crimson:#DC143C;
+$dadGrey:#dadfea;
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height:100%;
+    background-color: $backgroundColor;
+
+
+}
+header{
+
+}
+footer{
+
+}
+.main{
+  background: $backgroundColor;
+  height: auto;
+  padding-left: 10px;
+  display: flex;
+}
+.bg-color {
+  background-color: $lightGreen;
+}
+.contain{
+  padding-left: 15px;
+}
+span{
+  width: 225px;
+}

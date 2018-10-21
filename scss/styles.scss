@@ -1,0 +1,42 @@
+@import "global";
+
+.nameBar{
+  background-color: $backgroundColorDark;
+
+}
+.row{
+  position: relative;
+  width: 300px;
+  border: 3px solid $ceil;
+  padding: 12px 10px;
+  margin-top: 10px;
+  background-color: $purpleMed;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.trash{
+  color: $crimson;
+  padding: 0 5px;
+}
+.i{
+  width: 41px;
+  height: 25px;
+  flex-basis: 41px auto;
+}
+.listContain{
+  display: flex;
+  flex-wrap: wrap;
+}
+.lists{
+  width: 380px;
+  padding-right: 5px;
+}
+.addlist{
+  width: 380px;
+}
+.kill{
+  padding: 0 5px;
+}
